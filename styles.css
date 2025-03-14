@@ -1,0 +1,75 @@
+/* Estilos para o site de vendas com fundo dividido em 4 cores */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #ff7e5f 25%, #feb47b 25%, #6a11cb 50%, #2575fc 75%);
+    text-align: center;
+    height: 100vh;
+}
+
+header {
+    background-color: rgb(221, 43, 117);
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 50px;
+}
+
+.produto {
+    display: inline-block;
+    background: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.produto img {
+    max-width: 200px;
+    border-radius: 5px;
+}
+.produt img {
+    max-width: 200px;
+    border-radius: 5px;
+}
+
+a {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+footer {
+    background-color: #e02d87;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
